@@ -15,27 +15,27 @@
    <td>addmarks.php</td>
    <td>Add marks UPDATE</td>
 
-      </tr>
+      <tr>
    <td>listcwfs..php</td>
    <td>list courseworks for a particular student</td>
 
-      </tr>
+      <tr>
    <td>lists.php</td>
    <td>List Students</td>
 
-      </tr>
+      <tr>
    <td>viewcw.php</td>
    <td>View Coursewourks</td>
 
-      </tr>
+      <tr>
    <td>viewcw2.php</td>
    <td>View Courseworks part 2</td>
 
-      </tr>
+      <tr>
    <td>views.php</td>
    <td>View Students</td>
 
-      </tr>
+      <tr>
    <td>views2.php</td>
    <td>View Students part 2</td>
 
