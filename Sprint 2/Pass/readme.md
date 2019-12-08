@@ -22,7 +22,7 @@
       </tr>
       <tr>
    <td>readme.md</td>
-   <td>thsi file</td>      
+   <td>this file</td>      
       </tr>
       <tr>
    <td>lists.php</td>
