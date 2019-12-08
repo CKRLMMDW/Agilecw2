@@ -26,7 +26,7 @@
    <td>login</td>
       </tr>
    <td>login.php</td>
-   <td>login</td>
+   <td>login server side</td>
       </tr>
    <td>menu.html</td>
    <td>menu</td>
