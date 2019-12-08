@@ -9,10 +9,7 @@
    <th><strong>Filneame</strong></th>
    <th><strong>Notes</strong></th>
 </thead>
-      </tr>
-   <td>readme.md</td>
-   <td>this file</td>
-      </tr>
+
    <td>CREATES.sql</td>
    <td>CREATE TABLE </td>
       </tr>
@@ -37,6 +34,10 @@
    <td>ninelut.sql</td>
    <td>Question nine look up table</td>
         </tr>
+              </tr>
+   <td>readme.md</td>
+   <td>this file</td>
+      </tr>
    <td>registers.html</td>
    <td>Resgister Student From</td>
         </tr>
