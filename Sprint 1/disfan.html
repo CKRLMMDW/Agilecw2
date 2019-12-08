@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+**************************************************
+Display table
+Display form
+Get p
+Validate input
+Action disfan.php post p
+**************************************************
+-->
+<head>
+    <title>Display Final Alphanumeric Grade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<br><br>
+<table> <th colspan="2"><center>Display Final Alphanumeric Grade</center></th> 
+<form name="fanform" action="disfan.php" onsubmit="return validate()" method="post">
+    <tr><th>Enter Average:  </th><<td><input type="number" name="p" ></td></tr>
+    </table> 
+    <input type="submit" value="Submit">
+</form>
+<br><br>
+ <script> 
+    function validate() {
+    var p = document.forms["fanform"]["p"].value;
+    if (p > 100 || < 1) {
+        alert("Please enter a percentage");
+        return false;
+    }
+}  
+</script>
+</body>
+</html>
