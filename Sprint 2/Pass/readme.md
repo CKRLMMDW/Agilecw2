@@ -17,8 +17,12 @@
    <td>Add marks UPDATE</td>
       </tr>
       <tr>
-   <td>listcwfs..php</td>
+   <td>listcwfs.php</td>
    <td>list courseworks for a particular student</td>      
+      </tr>
+      <tr>
+   <td>readme.md</td>
+   <td>thsi file</td>      
       </tr>
       <tr>
    <td>lists.php</td>
