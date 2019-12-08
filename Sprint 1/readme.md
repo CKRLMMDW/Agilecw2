@@ -22,6 +22,9 @@
    <td>gadb(2).sql</td>
    <td>Graduate Apprentice Database</td>
       </tr>
+   <td>getsid.html</td>
+   <td>Get Student ID Form</td>
+      </tr>
    <td>login.html</td>
    <td>login</td>
       </tr>
