@@ -15,7 +15,7 @@
       <tr>
    <td>addmarks.php</td>
    <td>Add marks UPDATE</td>
-
+      </tr>
       <tr>
    <td>listcwfs..php</td>
    <td>list courseworks for a particular student</td>      
