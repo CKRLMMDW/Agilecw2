@@ -12,6 +12,7 @@
    <th><strong>Notes</strong></th>
 </thead>
       </tr>
+      <tr>
    <td>addmarks.php</td>
    <td>Add marks UPDATE</td>
 
@@ -26,15 +27,15 @@
       <tr>
    <td>viewcw.php</td>
    <td>View Coursewourks</td>
-</tr>
+     </tr>
       <tr>
    <td>viewcw2.php</td>
    <td>View Courseworks part 2</td>
-</tr>
+      </tr>
       <tr>
    <td>views.php</td>
    <td>View Students</td>
-</tr>
+      </tr>
       <tr>
    <td>views2.php</td>
    <td>View Students part 2</td>
