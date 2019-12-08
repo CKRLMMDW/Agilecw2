@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+**************************************************
+Display table
+Display form
+Get fn, ln
+Validate input
+Action registers.php post fn, ln
+**************************************************
+-->
+<head>    
+    <title>Register Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<table> <th colspan="2"><center>Register Student</center></th>
+<form name="rsform" action="registers.php" onsubmit="return validate()" method="post">
+    <tr> <th>First name</th><td><input name="fn" type="text"></td></tr>
+    <tr> <th>Last name </th><td><input name="ln" type="text"></td></tr>
+</table><br>
+<input type="submit" value="Register Student">
+<script> 
+function validate() {
+    var fn = document.forms["rsform"]["fn"].value;
+    var ln = document.forms["rsform"]["ln"].value;
+    if (fn === "" || ln === "") {
+       alert("Please complete each field");
+       return false;
+    }
+ }   
+</script>
+</body>
+</html>
