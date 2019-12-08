@@ -28,6 +28,10 @@
    <td>viewcw.php</td>
    <td>View Coursewourks</td>
      </tr>
+         <tr>
+   <td>viewmfcw.php</td>
+   <td>View Mark for Coursewourks</td>
+     </tr>
       <tr>
    <td>viewcw2.php</td>
    <td>View Courseworks part 2</td>
