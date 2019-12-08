@@ -26,13 +26,13 @@
    <td>Get Student ID Form</td>
       </tr>
    <td>login.html</td>
-   <td>login</td>
+   <td>Login</td>
       </tr>
    <td>login.php</td>
-   <td>login server side</td>
+   <td>Login Server Side</td>
       </tr>
    <td>menu.html</td>
-   <td>menu</td>
+   <td>Menu</td>
       </tr>
    <td>ninelut.sql</td>
    <td>Question nine look up table</td>
