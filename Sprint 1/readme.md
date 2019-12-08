@@ -13,7 +13,7 @@
    <td>readme.md</td>
    <td>this file</td>
       </tr>
-   <td>CREATES.sql/td>
+   <td>CREATES.sql</td>
    <td>CREATE TABLE </td>
       </tr>
    <td>disfan.html</td>
