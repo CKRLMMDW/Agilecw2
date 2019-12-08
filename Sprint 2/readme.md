@@ -15,10 +15,10 @@
    <td>this file</td>
       </tr>
    <td>Pass</td>
-   <td>Pass version of code</td>
+   <td>FOLDER Pass version of code</td>
        </tr>
    <td>Refactored</td>
-   <td>Refactored version of code</td>
+   <td>FOLDER Refactored version of code</td>
 
  
 </table>
