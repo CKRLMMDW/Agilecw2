@@ -17,6 +17,14 @@
    <td>Add marks UPDATE</td>
       </tr>
       <tr>
+        <tr>
+   <td>editcw.php</td>
+   <td>list courseworks and get new details</td>      
+      </tr>
+         <tr>
+   <td>editcw2.php</td>
+   <td>edit coursework part 2 UPDATE</td>      
+      </tr>
    <td>listcwfs.php</td>
    <td>list courseworks for a particular student</td>      
       </tr>
