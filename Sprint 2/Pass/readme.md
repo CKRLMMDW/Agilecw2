@@ -1,62 +1,25 @@
-
-
 <html>
-<head>
-
-</head>
 <body>
    <h2>Sprint 2 / Pass / readme.md</h2>
 <table width="100%" border="1" style="border-collapse:collapse;">
 <thead><tr>
-   <th><strong>Filneame</strong></th>
-   <th><strong>Notes</strong></th>
-</thead>
+   <th><strong>Feature</strong></th>
+   <th><strong>Filenames</strong></th>
+   </thead>
+      </tr><tr>
+         <td>View Coursework</td>
+         <td><tt>viewcw.php, viewcw2.php</tt></td>
+      </tr><tr>
+         <td>Edit Coursework</td>
+         <td><tt>editcw.php, editcw2.php</tt></td>      
+      </tr><tr>
+         <td>View Student</td>
+         <td><tt>views.php, views2.php</tt></td>      
+      </tr><tr>
+         <td>Display Average</td>
+         <td><tt>disavg.php, disavg2.php</tt></td>
+      </tr><tr>
+         <td>Add Marks</td>
+        <td><tt>lists.php, listcwfs.php, addmarks.php</tt></td>
       </tr>
-      <tr>
-   <td>addmarks.php</td>
-   <td>Add marks UPDATE</td>
-      </tr>
-      <tr>
-        <tr>
-   <td>editcw.php</td>
-   <td>list courseworks and get new details</td>      
-      </tr>
-         <tr>
-   <td>editcw2.php</td>
-   <td>edit coursework part 2 UPDATE</td>      
-      </tr>
-   <td>listcwfs.php</td>
-   <td>list courseworks for a particular student</td>      
-      </tr>
-      <tr>
-   <td>readme.md</td>
-   <td>this file</td>      
-      </tr>
-      <tr>
-   <td>lists.php</td>
-   <td>List Students</td>
-      </tr>
-      <tr>
-   <td>viewcw.php</td>
-   <td>View Coursewourks</td>
-     </tr>
-         <tr>
-   <td>viewmfcw.php</td>
-   <td>View Mark for Coursewourks</td>
-     </tr>
-      <tr>
-   <td>viewcw2.php</td>
-   <td>View Courseworks part 2</td>
-      </tr>
-      <tr>
-   <td>views.php</td>
-   <td>View Students</td>
-      </tr>
-      <tr>
-   <td>views2.php</td>
-   <td>View Students part 2</td>
-
-
-
- 
-</table>
+ </table>
