@@ -19,19 +19,19 @@
       </tr>
       <tr>
    <td>Edit Coursework</td>
-   <td>editcw.php, editcw2.php</td>      
+   <td><tt>editcw.php, editcw2.php</tt></td>      
       </tr>
       <tr>
    <td>View Student</td>
-   <td>views.php, views2.php</td>      
+   <td><tt>views.php, views2.php</tt></td>      
       </tr>
       <tr>
    <td>Display Average</td>
-   <td>disavg.php, disavg2.php</td>
+   <td><tt>disavg.php, disavg2.php</tt></td>
       </tr>
       <tr>
    <td>Add Marks</td>
-   <td>lists.php, listcwfs.php, addmarks.php</td>
+   <td><tt>lists.php, listcwfs.php, addmarks.php</tt></td>
      </tr>
      
 </table>
