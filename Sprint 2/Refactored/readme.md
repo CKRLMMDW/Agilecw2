@@ -15,7 +15,7 @@
       </tr>
       <tr>
    <td>View Coursework</td>
-   <td>viewcw.php, viewcw2.php</td>
+   <td><tt>viewcw.php, viewcw2.php</tt></td>
       </tr>
       <tr>
    <td>Edit Coursework</td>
