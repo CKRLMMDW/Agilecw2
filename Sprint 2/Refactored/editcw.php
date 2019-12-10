@@ -1,12 +1,19 @@
-<html><link rel="stylesheet" href="styles.css">
+<html>
+<!-- *********************************************
+FEATURE:   EDIT COURSEWORK
+SPRINT:    2
+CALLED BY: menu.html
+NEXT:      editcw2.php
+*********************************************
+-->
+<link rel="stylesheet" href="styles.css">
 <head>
    <title>List Courseworks</title>
-</head>   
-
+</head>
 <body>
    <h2>List Courseworks</h2>
 <table width="100%" border="1" style="border-collapse:collapse;">
-<thead><tr>
+<thead><tr>  <!-- Table Headings -->
    <th><strong>Coursework ID</strong></th>
    <th><strong>Title</strong></th>
    <th><strong>Module ID</strong></th>
@@ -41,9 +48,8 @@ mysqli_close($link);            //close connection
 <!-- END PHP -->
 
 </table>
-
 <br><br>
-<table> 
+<table> <!-- Form: Enter new details -->
 <form name="form" action="editcw2.php" onsubmit="return validate()" method="post">
    <tr><th>Enter Coursework ID:      </th></td><td><input type="text" name="cwid" ></td></tr>
    <tr><th>Enter Coursework Title:   </th></td><td><input type="text" name="cwtitle" ></td></tr>
@@ -57,17 +63,15 @@ mysqli_close($link);            //close connection
       <option value="2" >Handed in</option>
    </select></th></tr>
    <br><br>
-
-   </table> 
+   </table>
    <br><br>
 <input type="submit" value="Submit">
-</form>
-<br><br>
+</form><br><br>
 
 <script>
     function validate() {
     var cwtitle = document.forms["form"]["cwtitle"].length;
-	var creditw = document.forms["form"]["creditw"].value;
+	  var creditw = document.forms["form"]["creditw"].value;
     if ((cwtitle < 10 ) || (creditw < 1 || > 100) {
         alert("Please enter a title of at least 10 characters and Credit weighting between 1 and 100");
         return false;

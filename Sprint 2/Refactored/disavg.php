@@ -1,9 +1,9 @@
 <html>
 <!-- *********************************************
-FEATURE:   ADD MARKS
+FEATURE:   DISPLAY AVERAGE
 SPRINT:    2
 CALLED BY: menu.html
-NEXT:      listcwfs.php
+NEXT:      disavg2.php
 *********************************************
 -->
 <head>
@@ -12,20 +12,20 @@ NEXT:      listcwfs.php
 <body>
    <h2>List Students</h2>
 <table width="100%" border="1" style="border-collapse:collapse;">
-<thead><tr>
-   <th><strong>Student ID</strong></th>
-   <th><strong>First Name</strong></th>
-   <th><strong>Last Name</strong></th>
-</thead></tr>
+   <thead><tr>
+      <th><strong>Student ID</strong></th>
+      <th><strong>First Name</strong></th>
+      <th><strong>Last Name</strong></th>
+   </thead></tr>
 
 <!-- START PHP -->
 <?php
-$link = mysqli_connect("localhost", "root", "", "gadb");
-   if($link === false) {
-  	  die("ERROR: Could not connect. " . mysqli_connect_error());
+   $link = mysqli_connect("localhost", "root", "", "gadb");
+      if($link === false) {
+  	     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 $sql = "SELECT * FROM students";
-$result = mysqli_query($link,$sql);
+   $result = mysqli_query($link,$sql);
 
 while($row = mysqli_fetch_assoc($result)){
    echo "<tr>";
@@ -37,17 +37,17 @@ while($row = mysqli_fetch_assoc($result)){
 mysqli_free_result($result);    //free memory
 mysqli_close($link);            //close connection
 ?>
-<!-- END PHP -->
+<!-- START PHP -->
 
 </table>
 
 <br><br>
 <table> <th colspan="2"><center>Pick Student</center></th>
-<form name="form" action="listcwfs.php" onsubmit="return validate()" method="post">
+<form name="form" action="disavg2.php" onsubmit="return validate()" method="post">
    <tr><th>Enter Student ID: </th></td><td><input type="text" name="sid" ></td></tr>
    <br><br>
 </table>
-<input type="submit" value="Submit">
+   <input type="submit" value="Submit">
 </form>
 <br><br>
 
