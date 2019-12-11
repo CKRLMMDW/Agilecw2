@@ -22,7 +22,8 @@ NEXT:      viewcw2.php
 
 <!-- START PHP -->
 <?php
-$link = mysqli_connect("localhost", "root", "", "gadb");
+   require_once('dbinfo.php');
+   $link = mysqli_connect($dbhost, $dbun, $dbpw, $dbname);
 
 //check connection
 if($link === false) {

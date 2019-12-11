@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<!--
+**************************************************
+Display table
+Display form
+Get tsid
+Validate input
+Action login.php post tsid
+**************************************************
+-->
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <br><br>
+   <table> <th colspan="2"><center>Login</center></th>
+   <form name="loginform" action="login.php" onsubmit="return validate()" method="post">
+      <tr><th>User ID:</th><td><input type="text" name="tsid" ></td></tr>
+    </table>
+   <input type="submit" value="Login">
+   <br><br>
+
+<script>
+    function validate() {
+    var tsid = document.forms["loginform"]["tsid"].value;
+    if (tsid === "") {
+        alert("Please complete each field");
+        return false;
+    }
+}
+</script>
+</body>
+</html>

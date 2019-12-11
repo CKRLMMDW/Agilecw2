@@ -20,7 +20,8 @@ NEXT:      listcwfs.php
 
 <!-- START PHP -->
 <?php
-$link = mysqli_connect("localhost", "root", "", "gadb");
+   require_once('dbinfo.php');
+   $link = mysqli_connect($dbhost, $dbun, $dbpw, $dbname);
    if($link === false) {
   	  die("ERROR: Could not connect. " . mysqli_connect_error());
 }
