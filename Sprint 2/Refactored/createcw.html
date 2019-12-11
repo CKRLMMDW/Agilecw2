@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!--
+**************************************************
+Display table
+Display form
+Get title, modid, hidate, creditw, fdd, status
+Validate input
+Action createcw.php post title, modid, hidate, creditw, fdd, status
+**************************************************
+-->
+<title>Create Course Work</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<table> <th colspan="2"><center>Create Coursework </center></th>
+<form name="ccwform" action="createcw.php" onsubmit="return validate()" method="post">
+    <tr><th>Title             </th><td> <input name="title"    type="text"></td></tr>
+    <tr><th>Module ID         </th><td> <input name="modid"    type="text"></td></tr>
+    <tr><th>Hand In Date      </th><td> <input name="hidate"   type="date"></td></tr>
+    <tr><th>Credit Weighting  </th><td> <input name="creditw"  type="text"></td></tr>
+    <tr><th>Feedback Due Date </th><td> <input name="fdd"      type="date"></td></tr>
+    <tr><th>Status:             </th></td><td>
+   <select name="status">
+      <option value="0" selected>In preperation</option>
+      <option value="1">Live</option>
+      <option value="2" >Handed in</option>
+   </select></th></tr>
+</table><br>
+<input type="submit" value="Create Coursework">
+
+<script>
+function validate() {
+    var title   = document.forms["ccwform"]["title"].value;
+    var modid   = document.forms["ccwform"]["modid"].value;
+    var hidate  = document.forms["ccwform"]["hidate"].value;
+    var creditw = document.forms["ccwform"]["creditw"].value;
+    var fdd     = document.forms["ccwform"]["fdd"].value;
+    var status  = document.forms["ccwform"]["status"].value;
+    if (title === "" || modid === "" || hidate === "" || creditw === "" || fdd === "" || status === "") {
+       alert("Please complete each field");
+       return false;
+    }
+ }
+</script>
+</body>
+</html>

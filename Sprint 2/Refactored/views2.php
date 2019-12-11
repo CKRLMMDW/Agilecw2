@@ -25,13 +25,13 @@ NEXT:      menu.html
 
 <!-- START PHP -->
 <?php
-   $cwid = $_POST['cwid'];
+   $sid = $_POST['sid'];
    $link = mysqli_connect("localhost", "root", "", "gadb");
    //check connection
    if($link === false) {
 	    die("ERROR: Could not connect. " . mysqli_connect_error());
 }
-$sql = "SELECT * FROM scw WHERE '$cwid'=cwid ORDER BY cwid";
+$sql = "SELECT * FROM scw WHERE '$sid'=sid ORDER BY sid";
    $result = mysqli_query($link,$sql);
 
    while($row = mysqli_fetch_assoc($result)) {
